@@ -1,0 +1,500 @@
+.logo{
+width: 155px;
+height: 150px;
+
+}
+
+@media screen and (max-width: 768px){
+    .logo{
+        width: 135px;
+        height: 127px;
+
+    }
+    
+    }
+
+
+
+Header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: black;
+    padding: 0px 7%;
+    border-radius: 1px;
+    position:sticky;
+    top: 0;
+    font-family:"@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Lobster&family=Open+Sans:wght@300&display=swap');"
+
+    
+    
+}
+
+
+.diseñoNav{
+    text-decoration: none;
+    color:blueviolet;   
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 400px;
+    border:mediumslateblue 1px solid;
+    
+}
+
+@media screen and (max-width: 768px){
+    .diseñoNav{
+        border:purple solid 1px;
+        color: mediumslateblue;
+        
+    }
+    
+
+}
+
+@media screen and (min-width: 1024px){
+    .diseñoNav{
+        text-decoration: none;
+        color:blueviolet;   
+        border-radius: 2px;
+        font-size: 40px;
+        font-weight: 400px;
+        
+    }
+    
+
+}
+
+.diseñoNav:hover {
+    color:mediumslateblue /* color al pasar el ratón por encima */;
+}
+
+
+.navLink {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el espacio interno predeterminado de la lista */
+    display: flex;
+    flex-direction: column; /* Muestra los elementos en una columna */
+    margin-left: 20px;
+    
+}
+
+@media screen and (min-width: 1024px){
+    .navLink {
+        list-style-type: none; /* Elimina los puntos de la lista */
+        padding: 0; /* Elimina el espacio interno predeterminado de la lista */
+        display: flex;
+        flex-direction: row; /* Muestra los elementos en una columna */
+        margin-left: 20px;
+        color:blueviolet;   
+    }
+
+}
+
+ul{
+list-style: none;
+
+}
+
+li{
+display: inline-block;
+margin-right: 20px;
+}
+
+
+.tituloHeader{
+font-size: 55px;
+color: blueviolet;
+border-radius: 5px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+@media screen and (max-width: 768px){
+    .tituloHeader{
+        font-size: 40px;
+        
+    }
+
+
+
+.container-color{
+background-color: #13001D ;
+
+}
+
+}
+
+p{
+color:indigo;   
+
+}
+
+.sloganHeader{
+font-size: 25px;
+
+}
+
+@media screen and (max-width: 1208px){
+.sloganHeader{
+display: none;
+}
+
+
+}
+
+.primeraImagen{
+    width: 100%;
+   
+}
+
+body{
+    background-color:#13001D
+}
+
+.bodyDet{
+    background-color:#13001D
+}
+
+
+#subTitulo{
+text-align: center;
+color: white;
+font-size: 45px;
+
+}
+
+#primerTexto{
+text-align: center;
+color: lavender;
+font-size: 25px;
+
+}
+
+.contenedorVideo{
+    display: flex;
+    justify-content: center;
+    
+    margin: 20px;
+    margin-top: 50px;
+
+}
+
+iframe {
+    width: 80%; /* Ocupa el 100% del ancho del contenedor */
+    max-width: 100%; /* Pero como máximo el 75% del ancho del contenedor */
+    aspect-ratio: 16 / 9; /* Define una relación de aspecto de 16:9 (rectangular) */
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid purple;
+    background-color:#13001D ;
+    margin-right: 20% ;
+    margin-left: 20% ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color:white;
+    
+}
+
+.redes-sociales img {
+    width: 50px;
+    height: 50px;
+}
+
+#tituloRedes{
+    padding-top: 50px;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#tituloEscondido{
+color:#13001D ;
+font-size: 1px;
+
+}
+
+.roster{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
+
+.bloqueJugador{
+    text-align: center;
+}
+  
+.imagenJugador {
+    width: 450px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 450px;
+    object-fit: cover; /* Ajusta el tamaño de la imagen sin deformarla */
+
+}
+
+#imagenJugadorMax{
+
+    width: 350px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 450px;
+    object-fit: cover; /* Ajusta el tamaño de la imagen sin deformarla */
+}
+
+.nombreJugador{
+color: white;
+font-size: 30px;
+}
+
+
+.posicion{
+color: darkorchid;
+font-size: 24px;
+
+}
+
+.descripcionJugador{
+    font-size: 18px;
+    color:mediumpurple;
+    font-weight: 100px;
+}
+
+#tituloRoster{
+font-size: 40px;
+color: white;
+text-align: center;
+
+}
+
+.imagenesStore{
+
+    display: grid;
+    height: 50vh;
+    margin-bottom: 50px;
+    width: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+  
+}
+
+.imagenCamiseta{
+    width: 100%;
+  
+    object-fit: cover;  
+
+}
+
+.imagenCamiseta2{
+    width: 100%;
+    
+    object-fit: cover;  
+
+}
+
+.imagenCamiseta3{
+    width: 100%;
+
+    object-fit: cover;  
+
+}
+
+.full-width {
+    grid-column: span 3; /* La primera imagen ocupa las dos columnas */
+    grid-row: 1;
+}
+
+.divCentrar{
+display: flex;
+flex-direction: column;
+}
+
+
+.centrarTexto{
+font-size: 5vh;
+text-align:center;
+grid-column: span 3;
+color: darkmagenta;
+}
+
+.centrarTexto:hover{
+color: darkslateblue;
+}
+
+.contenedorResults{
+
+  background-color: black;
+  width: 300px; /* Tamaño del contenedor */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+}
+
+
+.fila{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.elemento, .texto{
+    width: 25%;
+    text-align: center;
+}
+
+.imagenResultados {
+    width: 200px;
+    height: auto;
+}
+
+.texto{
+    color: white;
+}
+
+.contenedorResultados{
+    background-color: black;
+    border: 1px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.elemento2{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+
+.textoR{
+
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.imagenR {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.contenedorResultados img{
+
+    max-width: 150px;
+    height: 150px ;
+}
+
+#tituloR{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+
+}
+
+.textoVS{
+
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size:40px ;
+}
+
+.textoDR{
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size:34px ;
+    color: red;
+
+}
+
+.textoWN{
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size:34px ;
+    color:chartreuse;
+    
+}
+
+.textoEM{
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size:34px ;
+    color:lightblue;
+    
+}
+
+.textoNombre{
+
+   
+ background-color: rgba(0, 0, 0, 0.6); 
+ font-size:24px ;
+ color: white;
+   
+    
+}
+
+.contenedorX {
+    text-align: center;
+    height: 15vh;
+}
+  
+.centradoX {
+    margin: 0; /* Elimina el margen predeterminado de los títulos */
+}
+
+.subtituloX{
+
+        margin-top: 5vh;
+        font-size: 1.4vh;
+        color: lavender;
+}  
+
+@media screen and (min-width: 768px) {
+    
+    .subtituloX{
+
+     margin-top: 5vh;
+     font-size: 1.7vw;
+     color: lavender;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .subtituloX{
+
+     margin-top: 5vh;
+     font-size: 2vh;
+     color: lavender;
+    }
+}
+    
+
+
+.tituloX{
+    margin-top: 50px;
+    font-size: 3.5vw;
+    color:mediumpurple;
+}  
+
+.enlacesNoticias {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Agrega espacio horizontal entre los elementos */
+  }
+
+.enlacesNoticias a {
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 5px 10px; /* Ajusta el espacio dentro de los enlaces */
+    background-color:#13001D; /* Fondo de los enlaces */
+    color: white; /* Color del texto de los enlaces */
+    border: 1px solid #333; /* Borde de los enlaces */
+    border-radius: 5px; /* Borde redondeado de los enlaces */}
